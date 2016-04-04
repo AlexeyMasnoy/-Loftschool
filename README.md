@@ -1,6 +1,6 @@
 Тестовое задание Loftschool
 
-![Image alt](https://github.com/AlexeyMasnoy/-Loftschool/app/test.png)
+![Image alt](https://github.com/AlexeyMasnoy/-Loftschool/blob/master/app/test.png)
 
 Установка:
 
