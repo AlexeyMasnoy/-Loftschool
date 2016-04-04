@@ -1,5 +1,7 @@
 Тестовое задание Loftschool
 
+![Image alt](https://github.com/AlexeyMasnoy/-Loftschool/app/test.png)
+
 Установка:
 
 1. git clone https://github.com/AlexeyMasnoy/-Loftschool
