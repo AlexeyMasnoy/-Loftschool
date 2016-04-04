@@ -1,0 +1,251 @@
+@font-face {
+	font-family: "FiraSans-Medium";
+	src: url(../fonts/FiraSans/FiraSans-Medium.ttf);
+	
+} 
+
+@font-face {
+	font-family: "FiraSans-Light";
+	src: url(../fonts/FiraSans/FiraSans-Light.ttf);
+	
+} 
+
+@font-face {
+	font-family: "FiraSans-Regular";
+	src: url(../fonts/FiraSans/FiraSans-Regular.ttf);
+	
+} 
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html,body {
+	height: 100%;
+}
+
+.float_left {
+	float: left;	
+}
+
+.float_right {
+	float: right;	
+}
+
+.container {
+	width: 940px;
+	height: auto;
+	margin: auto;
+	padding: 70px 0px;
+}
+
+#wrapper {
+	max-width: 100%;
+	margin: auto;
+}
+
+.main_header {
+	width: 100%;
+    height: 90px;
+	margin: auto;
+	color: #ffffff;
+	background-color: #8cc34b;
+	box-shadow:  0px 5px 5px 0px #d2d2d2;
+}
+
+header h3 {
+	margin: 5px;
+	text-align: left;
+	color: #ffffff;
+	font-size: 21px;
+	font-family: FiraSans-Medium,Times New Roman, serif;
+}
+header p {
+	color: #ddedc9;
+	font-size: 14px;
+	font-family: FiraSans-Regular,Times New Roman, serif;
+	margin: 5px;
+}
+
+.header_left {
+	height: 100%;
+	display: inline-block;	
+	float: left;
+	margin: 0 0 0 30px;
+}
+
+.header_right {	
+	display: inline-block;
+	float: right;
+	margin: 25px;
+}
+
+.header_image {
+	float: left;
+}
+
+.header_text {
+	float: left;
+	padding: 18px;
+}
+
+.header_image img {
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	margin: 15px 0px 15px 0px;
+	float: left;
+}
+
+.social_item {
+	display: inline-block;
+}
+
+h1,h3 {
+	text-align: center;
+}
+
+
+h1 {
+	color: #212121;
+	font-size: 42px;
+	font-family: FiraSans-Medium,Times New Roman, serif; 
+}
+
+h3 {
+	margin: 15px 0px;
+	color: #727272;
+	font-size: 21px;
+	font-family: FiraSans-Light,Times New Roman, serif; 
+}
+
+#block_student {
+
+}
+.student_self {
+    overflow: hidden;
+}
+
+.my_self {
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+
+.my_self_img {
+	display: inline-block;
+	float: left;
+	width: 140px;
+}
+	
+.self_box {
+	overflow: hidden;
+	height: 200px;
+	padding: 0 20px;
+}
+
+.self_box h3, article.course_item h3 {
+	text-align: left;
+	color: #212121;
+	font-size: 21px;
+	font-family: FiraSans-Regular,Times New Roman, serif;
+
+}
+
+.self_box p, article.course_item p {
+	color: #7b7b7b;
+	font-size: 14px;
+	font-family: FiraSans-Light,Times New Roman, serif;
+
+}
+.self_box p {
+	padding: 0px 15px 0px 0px;
+}
+
+.self_box a {
+	color: #31b9f6;
+}
+
+#block_corses {
+	overflow: hidden;
+	background-image: url(../gplaypattern.png);
+	margin-bottom: 70px;
+    padding-bottom: 70px;
+}
+
+.block_course_header {
+	
+}
+
+.box {
+	display: inline-block;
+	width: 33.333%;
+	float: left;
+}
+.box h3 {
+	text-align: left;
+}
+
+article.course_item {
+	width: 30.333%;
+	display: inline-block;
+	float: left;
+	box-shadow: 0 0 10px #d8d9d6;
+	background-color: #fff;
+	margin: 10px;
+
+}
+
+article.course_item:hover{	
+
+	
+}
+
+article.course_item img{
+	width: 100%;
+}
+
+article.course_item h3, 
+article.course_item p {
+	padding: 15px;
+}
+
+article.course_item h3 {
+	color: #212121;
+
+}
+
+.checkbox {
+	height: 60px;
+	background-color: #f6f7f2;
+}
+
+.checkbox lable {
+	color: #727272;
+	font-size: 21px;
+	font-family: FiraSans-Regular,Times New Roman, serif;
+}
+
+#checkbox-id {
+	vertical-align: middle;
+	height: 100%;
+	margin: 0px 20px;
+}
+
+footer {
+	height: 70px;
+	background-color: #212121;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
+footer p {
+	margin: 15px 0px;
+	text-align: center;
+	color: #898989;
+	font-size: 14px;
+	font-family: FiraSans-Regular,Times New Roman, serif;
+	
+}
