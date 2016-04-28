@@ -32,6 +32,11 @@ $(document).ready(function() {
 			   		$(this).find(".line:last").remove();
 			   		
 	});
+
+		$('social_logo').hover(function () {
+			$(this).addClass('svg-git-i-hover');
+
+		})
 });			   			   
 			   			   	   
 			   			   

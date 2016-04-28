@@ -35,6 +35,10 @@ html,body {
 	height: 100%;
 }
 
+body {
+	min-width: 1200px;
+}
+
 .float_left {
 	float: left;	
 }
@@ -51,18 +55,28 @@ html,body {
 }
 
 #wrapper {
-	max-width: 100%;
-	margin: auto;
+	min-height: 100%;	
+	margin-bottom: -70px;
+}
+
+#wrapper:after {
+  content: "";
+  display: block;
 }
 
 .main_header {
-	min-width: 1200px;
 	padding: 0px;
     height: 90px;
 	margin: auto;
-	color: #ffffff;
 	background-color: #8cc34b;
 	box-shadow:  0px 5px 5px 0px #d2d2d2;
+}
+
+.header_container {
+	width: 940px;
+	padding: 0px;
+    height: 100%;
+    margin: auto;
 }
 
 header h3 {
@@ -109,13 +123,9 @@ header p {
 }
 
 .social_logo {
-	fill: #ddedc9;
-	height: 30px;
-	width: 30px;
+	display: inline-block;
 	margin-left: 15px;
-}
-.social_logo:hover {
-	fill: #fff;
+	fill: #ddedc9;
 }
 
 h1,h3 {
@@ -147,9 +157,10 @@ h3 {
 }
 
 .my_self_img {
+	border: none;
 	display: inline-block;
 	float: left;
-	width: 140px;
+	/*width: 140px;*/
 }
 	
 .self_box {
@@ -180,13 +191,7 @@ h3 {
 }
 
 #block_courses {
-	min-height: 100%;
-	background-image: url(../gplaypattern.png);
-	margin-bottom: -70px;
-}
-#block_courses:after {
-  content: "";
-  display: block;
+	background-image: url(../gplaypattern.png);	
 }
 
 .box {
@@ -323,12 +328,15 @@ input[type="checkbox"]:checked + label:after {
 	 opacity: 1;
 }
 
-footer, #block_courses:after {
+footer, #wrapper:after {
 	height: 70px;
 	background-color: #212121;
 	width: 100%;
-	left: 0;
-	bottom: 0;
+}
+
+#wrapper:after {
+	height: 70px;
+	width: 100%;
 }
 
 footer p {
